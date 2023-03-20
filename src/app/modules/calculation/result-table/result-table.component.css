@@ -1,0 +1,11 @@
+.width80 {
+    width: 80%;
+}
+
+td {
+    text-align: center;
+}
+
+th.mat-header-cell {
+    text-align: center;
+}

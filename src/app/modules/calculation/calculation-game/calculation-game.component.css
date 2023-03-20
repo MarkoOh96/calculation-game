@@ -1,0 +1,16 @@
+input, span { 
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 30px;
+}
+
+h1 {
+    padding: 10px 0px 10px 0px;
+    font-size: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

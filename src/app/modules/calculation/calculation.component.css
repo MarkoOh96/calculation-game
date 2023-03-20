@@ -1,0 +1,9 @@
+.content_center {
+    justify-content: center;
+    display: flex;
+    padding: 1vh;
+}
+
+.width80 {
+    width: 80%;
+}

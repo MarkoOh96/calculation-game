@@ -1,0 +1,25 @@
+<table cellspacing="20">
+    <th>
+        <h1>Enter the sum: </h1>
+    </th>
+    <tr>
+        <td>
+            <mat-form-field appearance="fill">
+                <input matInput maxlength="2" [(ngModel)]="num1" disabled="true" data-cy="num1">
+            </mat-form-field>
+        </td>
+        <td><span>+</span></td>
+        <td>
+            <mat-form-field appearance="fill">
+                <input matInput maxlength="2" [(ngModel)]="num2" disabled="true"  data-cy="num2">
+            </mat-form-field>
+        </td>
+        <td><span>=</span></td>
+        <td>
+            <mat-form-field appearance="fill">
+                <mat-label>Press "Enter" to submit the result</mat-label>
+                <input matInput type="number" [(ngModel)]="result" (keyup.enter)="checkResult(); resetState();"  data-cy="sum">
+            </mat-form-field>
+        </td>
+    </tr>
+</table>
